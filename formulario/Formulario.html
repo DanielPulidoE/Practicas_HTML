@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Armalo con Punto Turrón</title>
+    <link rel="stylesheet" href="styles2.css"/>
+    
+</head>
+
+<body>
+    <header>
+        <p class="encabezado">Aquí puedes armas tu pastel y ordenar tu pedido.</p>
+    </header>
+        <nav>
+            <a target="_blank" href="/PracticasHTML/landingpage/practica2.html">Home</a>
+            <a target="_blank" href="/PracticasHTML/landingpage/practica2.html">Contacto</a>
+            <a target="_blank" href="/PracticasHTML/landingpage/practica2.html">Sobre Punto Turrón</a>
+        </nav>
+            <section class="section">
+                <form>
+                        <article>
+                        <h2 class="datoscliente">Datos del Cliente.</h2>
+                            <label for="input1">Nombres.</label><br>
+                                <input type="text" id="nombres1" placeholder="Ingresar Nombres"/>
+                                <br>
+                            <label for="input2">Apellidos.</label><br>
+                                <input type="text" id="apellidos2" placeholder="Ingresar Apellidos"/>
+                                <br>
+                            <label for="input3">Correo.</label><br>
+                                <input type="email" id="email1" placeholder="Correo de contacto"/>
+                                <br>
+                            <label for="input4">Número Telefónico.</label><br>
+                                <input type="number" id="telefono1" placeholder="Telefono de contacto"/>
+                                <br>
+                        </article>
+
+                            <article>
+                                <h2 class="tamañopastel">Tamaño de pastel.</h2>
+                                <select id="tamañopastel">
+                                    <option value="Chico">Tamaño Chico</option>
+                                    <option value="Mediano">Tamaño Mediano</option>
+                                    <option value="Grande">Tamaño Grande</option>
+                                </select>
+                            </article>
+
+                                <article>
+                                    <h2 class="saborharina">Sabor de Harina.</h2>
+                                    <input type="checkbox" name="Vainilla" value="Vainilla">
+                                        <label for="Vainilla">Sabor Vainilla</label>
+                                        <br>
+                                    <input type="checkbox" name="Chocolate" value="Chocolate">
+                                        <label for="Chocolate">Sabor Chocolate</label>
+                                        <br>
+                                    <input type="checkbox" name="Fresa" value="Fresa">
+                                        <label for="Fresa">Sabor Fresa</label>
+                                </article>
+
+                                    <article>
+                                        <h2 class="tipocuberita">Tipo de Cubierta.</h2>
+                                        <select id="tipocubierta">
+                                            <option value="Crema Chantilly">Crema Chantilly</option>
+                                            <option value="Crema Pastelera">Crema Pastelera</option>
+                                            <option value="Betún">Betún</option>
+                                        </select>
+                                    </article>
+
+                                        <article>
+                                            <h2 class="tiporelleno">Tipo de Relleno.</h2>
+                                            <input type="radio" id="fresa" name="Relleno" value="Fresa">
+                                                <label for="fresa">Mermelada de Fresa</label>
+                                                <br>
+                                            <input type="radio" id="zarzamora" name="Relleno" value="Zarzamora">
+                                                <label for="zarzamora">Mermelada de Zarzamora</label>
+                                                <br>
+                                            <input type="radio" id="maní" name="Relleno" value="Maní">
+                                                <label for="maní">Crema de Maní</label>
+                                                <br>
+                                        </article>
+                                            <p><h3>Ingrese la fecha del pedido.</h3></p>
+                                            <input type="datetime-local" id="fecha" name="fecha">
+                                                <input type="submit">
+                                                <button type="reset">Empezar de nuevo.</button>                          
+                </form>
+            </section>
+                <aside>
+
+                </aside>
+                    <footer>
+
+                    </footer>
+</body>
